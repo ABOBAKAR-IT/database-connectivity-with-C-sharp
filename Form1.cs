@@ -17,7 +17,7 @@ namespace database_connectivity_with_C_sharp
         SqlCommand command;
         DataTable data = new DataTable();//data = table
       
-            string connection_db = @"Data Source=RANA-ABOBAKAR\SQLEXPRESS;Initial Catalog=students;Integrated Security=true";
+            string db_connection = @"Data Source=RANA-ABOBAKAR\SQLEXPRESS;Initial Catalog=students;Integrated Security=true";
         public Form1()
         {
             InitializeComponent();
