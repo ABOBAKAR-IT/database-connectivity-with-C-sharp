@@ -138,9 +138,10 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(345, 13);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 13);
+            this.label4.Size = new System.Drawing.Size(80, 13);
             this.label4.TabIndex = 10;
-            this.label4.Text = "File Handling\r\n";
+            this.label4.Text = "SQL Database ";
+            this.label4.Click += new System.EventHandler(this.Label4_Click);
             // 
             // Form1
             // 
